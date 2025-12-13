@@ -3,11 +3,22 @@ echo Hello Seema > file1.txt
 git add .
 git commit -m "<message>"
 git status
-git log
-git remote -h
-git clone -h
-git remove -v
+
 git branch
 git branch <branchName>
 git reset
 git checkout <anyBranch>
+
+git log
+git show <commit hash>
+git show --name-only <commit hash>
+git remote -h
+git clone -h
+git remove -v
+
+
+git reflog  - powerful command give all info about the changes that happen all the project including all commit and all branches
+
+
+git push
+git pull

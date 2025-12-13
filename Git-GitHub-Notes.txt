@@ -8,13 +8,39 @@ FOUNDATIONS:-
 BASIC CONCEPT:-
 
 1- Commit
+
 -set of saved repository changes
 -commit has a (unique identification) hash key
 -commit never lost
 
-2- Add a file
+2-Staging
 
+-----Add a file-----
 -echo Hello World > Readme.md
 -git add .
 -git commit -m "initial commit" -save (commit) your staged changes to the local Git repository with a message.
 -git log
+
+-----Git Reset-----
+-Remove one or more file from stagging
+
+Ex:- make 3 files - file1.txt , file2.txt , file3.txt
+echo file1 > file1.txt
+echo file2 > file2.txt
+echo file3 > file3.txt
+
+-git add file1.txt
+now one file is tracked and another 2 file is untracked file
+
+-git reset - if we want to remove file1.txt changes from local repository which we added.
+
+
+3-Branch
+
+-git branch
+-git branch <newBranch>
+-git checkout <newBranch>
+
+
+
+4-Push & Pull
