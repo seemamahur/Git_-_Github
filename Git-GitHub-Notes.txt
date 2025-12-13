@@ -50,8 +50,10 @@ git push -u origin <branch-name>
 or
 git push --set-upstream origin gitCommands
 
-------Meaning of -u ------
--u Set upstream branch
---set-upstream Full form of -u
+4-Push & Pull
 
-git pull
+5-Undo & Redo Changes 
+
+6- merge branch
+
+7-Pull Request PRs

@@ -1,0 +1,92 @@
+Undo or redo changes
+
+git log 
+
+git revert <hash>
+
+
+git revert
+Purpose:
+Creates a new commit that undoes the changes of a previous commit.
+git revert <commit>
+
+1- public undo
+2- Does not delete history
+3-Safe for shared/public branches
+4-Used in production environments
+
+
+git reset
+Purpose:-
+Moves the branch pointer backward to a previous commit and can remove commits from history.
+
+1- Local undo
+2- Rewrites history
+3- Dangerous for shared branches
+4- Best for local work only
+
+git reset --soft <commit>    --soft	Keeps changes staged
+git reset --mixed <commit>   (default) --mixed	Keeps changes unstaged
+git reset --hard <commit>    --hard	Deletes changes completely
+
+
+
+git pull --no-rebase origin gitCommands
+
+
+Takes your local commits
+Temporarily removes them
+Updates your branch with remote commits
+Re-applies your commits on top of the latest remote commit
+
+
+MERGE
+A---B---C---M
+     \     /
+      D---E
+Creates a merge commit M
+History looks branched
+
+REBASE
+A---B---C---D'---E'
+No merge commit
+Clean, linear history
+
+
+
+git init
+git remote add
+git diff sourceBranch targetBranch
+
+
+git tag
+Use cases:
+Mark release versions (v1.0, v2.0)
+Easily reference important commits
+Deployment & rollback reference
+Common commands:
+git tag            # list tags
+git show v1.0      # show tag details
+git push origin v1.0
+git push origin --tags
+
+
+
+git stash
+Temporarily save uncommitted changes without committing them.
+
+Use cases:
+Switch branches quickly
+Save unfinished work
+Pull latest changes without committing
+Characteristics:
+Temporary storage
+Changes can be reapplied or discarded
+Does NOT create commits
+
+
+
+Simple explanation
+Tag: “Remember this commit forever”
+Stash: “Save my work for later”
+
