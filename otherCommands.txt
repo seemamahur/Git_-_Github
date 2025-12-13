@@ -89,3 +89,9 @@ Does NOT create commits
 Simple explanation
 Tag: “Remember this commit forever”
 Stash: “Save my work for later”
+
+
+
+
+Remove the file using Git
+git rm filename.txt
