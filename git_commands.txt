@@ -1,4 +1,5 @@
-git clone <link>
+git clone <Repository link>
+git clone <Repository link> newRepository
 echo Hello Seema > file1.txt
 git add .
 git commit -m "<message>"
@@ -20,5 +21,19 @@ git remove -v
 git reflog  - powerful command give all info about the changes that happen all the project including all commit and all branches
 
 
+
 git push
+------Why upstream is important-----
+Once upstream is set:
+git push knows where to push
+git pull knows where to pull from
+
+git push -u origin <branch-name>
+or 
+git push --set-upstream origin gitCommands
+
+------Meaning of -u ------
+-u	Set upstream branch
+--set-upstream	Full form of -u
+
 git pull
