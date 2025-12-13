@@ -1,0 +1,20 @@
+FOUNDATIONS:-
+
+1- Create github repository
+2- Install git
+3- Create local repository ------- Git clone <GIT LINK>
+4- Link local and git repo ------- git remote -v ----display the linkof the remote repository
+
+BASIC CONCEPT:-
+
+1- Commit
+-set of saved repository changes
+-commit has a (unique identification) hash key
+-commit never lost
+
+2- Add a file
+
+-echo Hello World > Readme.md
+-git add .
+-git commit -m "initial commit" -save (commit) your staged changes to the local Git repository with a message.
+-git log
