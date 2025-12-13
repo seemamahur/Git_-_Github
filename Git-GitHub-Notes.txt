@@ -44,3 +44,9 @@ now one file is tracked and another 2 file is untracked file
 
 
 4-Push & Pull
+
+5-Undo & Redo Changes 
+
+6- merge branch
+
+7-Pull Request PRs
